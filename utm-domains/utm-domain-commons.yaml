@@ -315,6 +315,7 @@ definitions:
     type: object
     required:
       - ordinal
+      - volume_type
       - effective_time_begin
       - effective_time_end
       - min_altitude_wgs84_ft
