@@ -986,13 +986,6 @@ definitions:
         example: 00000000-0000-4444-8888-FEEDDEADBEEF
       type:
         type: string
-        enum:
-          - INTERSECTING_OPERATION_NOTIFICATION
-          - REPLAN_BEGINNING_AS_SECONDARY_OPERATION
-          - REQUESTING_MANUAL_CLEARANCE
-          - MANUAL_CLEARANCE_GRANTED
-          - MANUAL_CLEARANCE_DENIED
-          - OTHER
       gufi_of_originator:
         description: >-
           The GUFI of the relevant operation of the originating USS. Note that
