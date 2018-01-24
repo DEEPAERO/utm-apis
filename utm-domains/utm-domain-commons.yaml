@@ -327,6 +327,14 @@ definitions:
           This integer represents the ordering of the operation volume within
           the set of operation volumes. Need not be consecutive integers.
         type: integer
+      volume_type:
+        description: >-
+            More description later.
+        type: string
+        enum:
+          - TBOV
+          - ABOV
+        default: ABOV
       near_structure:
         description: Is this operation volume within 400' of a structure?
         type: boolean
